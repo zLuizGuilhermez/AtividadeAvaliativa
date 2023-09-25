@@ -41,7 +41,7 @@ int main()
         printf("Quer adicionar outra cidade? 1 para sim / 0 para não: ");
         scanf("%d", &retorno);
 
-    } while (retorno != 0);
+    } while (retorno > 0);
 
     // a) Qual o maior e o menor índice de acidentes de trânsito e a que cidades pertencem
 
