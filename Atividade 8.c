@@ -61,7 +61,7 @@ int main()
 
     // percentual de pessoas com salário até R$100,00.
     salarioCalculo = salarioPercentual * 100 / contadorPessoa;
-    printf("O percentual  de %d", salarioCalculo);
+    printf("O percentual de pessoas com salário até R$100,00: e %d", salarioCalculo);
 
     return 0;
 }
