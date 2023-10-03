@@ -1,12 +1,10 @@
 #include <stdio.h>
 
-int main()
-{
+int main(){
     float a, b, c;
     int retorno = 0;
 
-    do
-    {
+    do{
         printf("Digite o valor de a: ");
         scanf("%f", &a);
         printf("Digite o valor de b: ");
@@ -14,23 +12,18 @@ int main()
         printf("Digite o valor de c: ");
         scanf("%f", &c);
 
-        if (a > 0 && b > 0 && c > 0)
-        {
-            if (a == b && b == c)
-            {
+        if (a > 0 && b > 0 && c > 0){
+            if (a == b && b == c){
                 printf("e um triangulo equilatero\n");
             }
-            else if (a == b || a == c || b == c)
-            {
+            else if (a == b || a == c || b == c){
                 printf("e um triangulo isosceles\n");
             }
-            else
-            {
+            else{
                 printf("e um triangulo escaleno\n");
             }
         }
-        else
-        {
+        else{
             printf("Os valores nao podem ser menores ou iguais a zero.\n");
         }
 
